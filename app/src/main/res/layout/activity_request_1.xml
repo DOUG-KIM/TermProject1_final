@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout tools:context="com.example.choejong_eun.myapplication.MainActivity" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textStyle="bold" android:id="@+id/textView" android:text="요청 제목: " android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/editText" android:layout_gravity="right"
+        android:hint="ex)맥도날드 배달" />
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView2" android:text="수수료" android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/editText2" android:layout_gravity="right" android:ems="10" android:inputType="number"
+        android:hint="단위:\" />
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView3" android:text="수행 세부 내용" android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/editText3" android:layout_gravity="center_horizontal"
+        android:hint="ex)빅맥세트, 음료:사이다" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView10"
+        android:text="전화번호"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/editText4"
+        android:layout_gravity="center_horizontal"
+        android:hint="전화번호를 입력하세요" />
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView5" android:text="본인 위치" android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:hint="위도, 경도"
+            android:textSize="20sp"
+            android:id="@+id/textView_location" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_weight="0.9"
+            android:id="@+id/button_getLocation"
+            android:background="@drawable/location"
+             />
+
+    </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="삭제"
+            android:id="@+id/button"
+            android:onClick="delete" />
+
+        <Button android:layout_height="67dp"
+            android:layout_width="match_parent"
+            android:layout_alignParentTop="true"
+            android:id="@+id/button_request"
+            android:text="심부름 요청"
+        android:textColor="#e96969"
+            android:textSize="24dp"
+            android:layout_centerHorizontal="true"/>
+
+</LinearLayout>
+
+</RelativeLayout>

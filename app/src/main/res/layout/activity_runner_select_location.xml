@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.deokwook.termproject1.runner_selectLocation">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/runner_main1"
+        android:scaleType="fitStart"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="127dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageView2">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="지역검색"
+            android:id="@+id/button4"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/location2" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="내주변검색"
+            android:id="@+id/search"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/location"/>
+
+    </LinearLayout>
+</RelativeLayout>

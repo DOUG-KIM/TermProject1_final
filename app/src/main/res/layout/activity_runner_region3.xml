@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.deokwook.termproject1.runner_region3">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:weightSum="1"
+        android:id="@+id/linearLayout2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="시/도"
+            android:id="@+id/textView7"
+            android:layout_weight="0.33"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="시/군/구"
+            android:id="@+id/textView8"
+            android:layout_weight="0.33"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="동/읍/면"
+            android:id="@+id/textView9"
+            android:layout_weight="0.34"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridLayout4"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="58dp"
+            android:id="@+id/button35"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:background="@drawable/address3_1" />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="58dp"
+            android:id="@+id/button36"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:background="@drawable/address3_2" />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="58dp"
+            android:id="@+id/button37"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:background="@drawable/address3_3" />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="58dp"
+            android:id="@+id/button38"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:background="@drawable/address3_4" />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="58dp"
+            android:id="@+id/button39"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:background="@drawable/address3_5" />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="58dp"
+            android:id="@+id/button40"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:background="@drawable/address3_6" />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="58dp"
+            android:id="@+id/button41"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:background="@drawable/address3_7" />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="58dp"
+            android:id="@+id/button42"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:background="@drawable/address3_8" />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="58dp"
+            android:id="@+id/button43"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:background="@drawable/address3_9" />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="58dp"
+            android:id="@+id/button44"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:background="@drawable/address3_10" />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="58dp"
+            android:id="@+id/button45"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:background="@drawable/address3_11" />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="58dp"
+            android:id="@+id/button46"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:background="@drawable/address3_12" />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="58dp"
+            android:id="@+id/button47"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:background="@drawable/address3_13" />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="58dp"
+            android:id="@+id/button48"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:background="@drawable/address3_16" />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="58dp"
+            android:id="@+id/button49"
+            android:layout_row="4"
+            android:layout_column="2"
+            android:background="@drawable/address3_15" />
+    </GridLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="54dp"
+        android:layout_below="@+id/gridLayout4"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="닫기"
+            android:id="@+id/button50"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="확인"
+            android:id="@+id/button51"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</RelativeLayout>
